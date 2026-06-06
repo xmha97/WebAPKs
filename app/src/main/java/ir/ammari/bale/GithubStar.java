@@ -1,4 +1,4 @@
-package org.woheller69.gptassist;
+package ir.ammari.bale;
 
 import android.app.AlertDialog;
 import android.content.Context;
