@@ -21,13 +21,13 @@ android {
             signingConfig signingConfigs.debug
         }
         create("bale") {
-            isMinifyEnabled = true
+            isMinifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
             applicationIdSuffix = ".bale"
         }
         create("snapp") {
-            isMinifyEnabled = true
+            isMinifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
             applicationIdSuffix = ".snapp"
